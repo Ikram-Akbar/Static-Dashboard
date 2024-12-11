@@ -4,7 +4,7 @@ import Sidebar from "./components/sidebar";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex w-full"> 
       <Sidebar />
       <main className="w-full">
         <Header />
